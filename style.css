@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #687ae4;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #1a1a2e;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header h2 {
+    color: #fe6a6b;
+    padding-left: 225px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    display: inline;
+}
+
+header nav {
+    display: inline;
+    padding-left: 300px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 70px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.main {
+    background-color: white;
+    margin: 40px 150px 40px 225px;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.bem-vindo {
+    background-color: #323f74;
+    margin: 20px 150px 20px 225px;
+    height: 600px;
+    border-radius: 8px;
+    padding: 80px 15px;
+    display: flex;
+    flex-flow: row;
+}
+
+.pixel-forge {
+    width: 500px;
+    align-self: center;
+}
+
+.pixel-forge h1 {
+    color: white;
+    font-size: 46px;
+    line-height: 70px;
+    text-shadow: 3px 3px black;
+}
+
+.pixel-forge p {
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.jogos {
+    color: white;
+    background-color: #fe6a6b;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.planos {
+    color: white;
+    background-color: #687ae4;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cadastro {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    width: 565px;
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.cadastro h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cadastro label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.cadastro input {
+    display: block;
+    width: 525px;
+    height: 38px;
+    font-size: 14px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.cadastro select {
+    margin-bottom: 25px;
+    width: 545px;
+    height: 42px;
+    font-size: 14px;
+    padding-left: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.cadastro button {
+    width: 545px;
+    height: 42px;
+    font-size: 16px;
+    padding-left: 15px;
+    color: white;
+    background-color: #fe6a6b;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+}
+
+.escolha-pixelforge {
+    padding: 60px 20px;
+}
+
+.titulo-beneficio {
+    text-align: center;
+    font-size: 40px;
+}
+
+.layout-performance {
+    background-color: #687ae4;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    height: 290px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.subtitulo-beneficio {
+    padding: 30px 0px;
+    font-size: 40px;
+}
+
+.descricao-performance {
+    color: white;
+    font-size: 25px;
+    line-height: 38px;
+    padding-bottom: 15px;
+}
+
+.layout-jogos {
+    background-color: #687ae4;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    height: 290px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.layout-comunidade {
+    background-color: #687ae4;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    height: 290px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.layout-torneios {
+    background-color: #687ae4;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    height: 290px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.paragrafo-beneficio {
+    color: white;
+    font-size: 16px;
+}

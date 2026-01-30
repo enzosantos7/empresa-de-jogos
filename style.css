@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #687ae4;
+    background: linear-gradient(to bottom right, #6974de, #764ea5);
     font-family: sans-serif;
 }
 
@@ -163,19 +163,27 @@ ul {
     padding: 60px 20px;
 }
 
-.titulo-beneficio {
-    text-align: center;
-    font-size: 40px;
+.lista-beneficios {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 20px;
 }
 
-.layout-performance {
-    background-color: #687ae4;
-    display: inline-block;
+.titulo-beneficio {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.layout-beneficio {
+    background: linear-gradient(to bottom right, #6974de, #764ea5);
     width: 250px;
     text-align: center;
     height: 290px;
-    margin-right: 15px;
     border-radius: 8px;
+    padding: 0px 15px 15px 15px;
+    box-shadow: 4px 4px 4px #cccccc87;
 }
 
 .subtitulo-beneficio {
@@ -183,44 +191,242 @@ ul {
     font-size: 40px;
 }
 
-.descricao-performance {
+.descricao-beneficio {
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 38px;
     padding-bottom: 15px;
 }
 
-.layout-jogos {
-    background-color: #687ae4;
-    display: inline-block;
-    width: 250px;
-    text-align: center;
-    height: 290px;
-    margin-right: 15px;
-    border-radius: 8px;
-}
-
-.layout-comunidade {
-    background-color: #687ae4;
-    display: inline-block;
-    width: 250px;
-    text-align: center;
-    height: 290px;
-    margin-right: 15px;
-    border-radius: 8px;
-}
-
-.layout-torneios {
-    background-color: #687ae4;
-    display: inline-block;
-    width: 250px;
-    text-align: center;
-    height: 290px;
-    margin-right: 15px;
-    border-radius: 8px;
-}
-
 .paragrafo-beneficio {
     color: white;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.planos-precos {
+    padding: 60px 20px;
+}
+
+.titulo-planos {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.planos-precos table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #cccccc32;
+    box-shadow: 
+        -4px 0px 4px #cccccc87,
+        4px 0px 4px #cccccc87,
+        0px 4px 4px #cccccc87;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.planos-precos th {
+    color: white;
+    background: linear-gradient(to bottom right, #6974de, #764ea5);
+    padding: 15px;
+    text-align: left;
+    border: none;
+}
+
+.planos-precos td {
+    padding: 20px 15px;
+    border: none;
+    border-bottom: 1px solid #cccccc52;
+}
+
+.planos-precos .precos {
+    color: #fe6a6b;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.planos-precos th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.planos-precos th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.planos-precos tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.planos-precos tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.jogos-destaques {
+    padding: 60px 20px;
+}
+
+.titulo-destaque {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.lista-destaques {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 34px;
+}
+
+.layout-destaque {
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 
+        -4px 0px 4px #cccccc87,
+        4px 0px 4px #cccccc87,
+        0px 4px 4px #cccccc87;
+        padding-bottom: 20px;
+}
+
+.subtitulo-galaxia {
+    padding: 65px 0px;
+    font-size: 40px;
+    background-color: #6680e9;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.layout-destaque div {
+    padding: 20px 15px;
+}
+
+.descricao-destaque {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.paragrafo-destaque {
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    color: #737373;
+}
+
+.subtitulo-lendas {
+    padding: 65px 0px;
+    font-size: 40px;
+    background-color: #fe6a6b;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.subtitulo-velocidade {
+    padding: 65px 0px;
+    font-size: 40px;
+    background-color: #50d066;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.subtitulo-magos {
+    padding: 65px 0px;
+    font-size: 40px;
+    background-color: #764ba2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.botao-destaque {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    background-color: #6680ea;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.novidades {
+    background-color: #131324;
+    text-align: center;
+    margin: 40px 150px 40px 225px;
+    border-radius: 8px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.novidades h2 {
+    color: white;
+    font-size: 35px;
+    padding-bottom: 28px;
+}
+
+.novidades p {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+
+.novidades div {
+    margin-bottom: 30px;
+}
+
+.email-novidade {
+    width: 525px;
+    height: 38px;
+    font-size: 14px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.inscrever-se {
+    color: white;
+    background-color: #fe6a6b;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.sobre-tudo {
+    background-color: #1a1a2e;
+    text-align: center;
+}
+
+.lista-sobre {
+    display: inline-block;
+    padding: 0px 100px;
+}
+
+.subtitulo-sobre {
+    color: #fe6a6b;
+    padding: 50px 0px 25px 0px;
+    font-size: 18px;
+}
+
+.botao-sobre {
+    display: block;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: rgb(223, 222, 222);
+}
+
+.sobre-tudo hr {
+    margin-top: 30px;
+}
+
+.sobre-tudo p {
+    color: white;
     font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
